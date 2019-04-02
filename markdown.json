@@ -1,0 +1,274 @@
+{
+  // Place your snippets for markdown here. Each snippet is defined under a snippet name and has a prefix, body and
+  // description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+  // $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the
+  // same ids are connected.
+  // Example:
+  // "Print to console": {
+  // 	"prefix": "log",
+  // 	"body": [
+  // 		"console.log('$1');",
+  // 		"$2"
+  // 	],
+  // 	"description": "Log output to console"
+  // }
+
+  // Greeks
+  "alpha": {
+    "prefix": ":a",
+    "body": ["\\alpha"]
+  },
+  "beta": {
+    "prefix": ":b",
+    "body": ["\\beta"]
+  },
+  "gamma": {
+    "prefix": ":g",
+    "body": ["\\gamma"]
+  },
+  "delta": {
+    "prefix": ":d",
+    "body": ["\\delta"]
+  },
+  "epsilon": {
+    "prefix": ":e",
+    "body": ["\\epsilon"]
+  },
+  "kappa": {
+    "prefix": ":k",
+    "body": ["\\kappa"]
+  },
+  "lambda": {
+    "prefix": ":l",
+    "body": ["\\lambda"]
+  },
+  "mu": {
+    "prefix": ":m",
+    "body": ["\\mu"]
+  },
+  "omicron": {
+    "prefix": ":o",
+    "body": ["\\omicron"]
+  },
+  "pi": {
+    "prefix": ":p",
+    "body": ["\\pi"]
+  },
+  "psi": {
+    "prefix": ":ps",
+    "body": ["\\psi"]
+  },
+  "phi": {
+    "prefix": ":ph",
+    "body": ["\\phi"]
+  },
+  "sigma": {
+    "prefix": ":s",
+    "body": ["\\sigma"]
+  },
+  "tau": {
+    "prefix": ":t",
+    "body": ["\\tau"]
+  },
+  "theta": {
+    "prefix": ":th",
+    "body": ["\\theta"]
+  },
+  "omega": {
+    "prefix": ":w",
+    "body": ["\\omega"]
+  },
+  "chi": {
+    "prefix": ":x",
+    "body": ["\\chi"]
+  },
+  "zeta": {
+    "prefix": ":z",
+    "body": ["\\zeta"]
+  },
+  "Alpha": {
+    "prefix": ":A",
+    "body": ["\\Alpha"]
+  },
+  "Beta": {
+    "prefix": ":B",
+    "body": ["\\Beta"]
+  },
+  "Gamma": {
+    "prefix": ":G",
+    "body": ["\\Gamma"]
+  },
+  "Delta": {
+    "prefix": ":D",
+    "body": ["\\Delta"]
+  },
+  "Epsilon": {
+    "prefix": ":E",
+    "body": ["\\Epsilon"]
+  },
+  "Kappa": {
+    "prefix": ":K",
+    "body": ["\\Kappa"]
+  },
+  "Lambda": {
+    "prefix": ":L",
+    "body": ["\\Lambda"]
+  },
+  "Mu": {
+    "prefix": ":M",
+    "body": ["\\Mu"]
+  },
+  "Omicron": {
+    "prefix": ":O",
+    "body": ["\\Omicron"]
+  },
+  "Pi": {
+    "prefix": ":P",
+    "body": ["\\Pi"]
+  },
+  "Psi": {
+    "prefix": ":Ps",
+    "body": ["\\Psi"]
+  },
+  "Phi": {
+    "prefix": ":Ph",
+    "body": ["\\Phi"]
+  },
+  "Sigma": {
+    "prefix": ":S",
+    "body": ["\\Sigma"]
+  },
+  "Tau": {
+    "prefix": ":T",
+    "body": ["\\Tau"]
+  },
+  "Theta": {
+    "prefix": ":Th",
+    "body": ["\\Theta"]
+  },
+  "Omega": {
+    "prefix": ":W",
+    "body": ["\\Omega"]
+  },
+  "Chi": {
+    "prefix": ":X",
+    "body": ["\\Chi"]
+  },
+  "Zeta": {
+    "prefix": ":Z",
+    "body": ["\\Zeta"]
+  },
+  "pm": {
+    "prefix": ";+",
+    "body": ["\\pm"]
+  },
+  "mp": {
+    "prefix": ";-",
+    "body": ["\\mp"]
+  },
+  "leftarrow": {
+    "prefix": ";<-",
+    "body": ["\\leftarrow"]
+  },
+  "rightarrow": {
+    "prefix": ";->",
+    "body": ["\\rightarrow"]
+  },
+  "LeftArrow": {
+    "prefix": ";<=",
+    "body": ["\\Leftarrow"]
+  },
+  "RightArrow": {
+    "prefix": ";=>",
+    "body": ["\\Rightarrow"]
+  },
+  "uparrow": {
+    "prefix": ";^|",
+    "body": ["\\uparrow"]
+  },
+  "downarrow": {
+    "prefix": ";v|",
+    "body": ["\\downarrow"]
+  },
+  "geq": {
+    "prefix": ";>",
+    "body": ["\\geq"]
+  },
+  "leq": {
+    "prefix": ";<",
+    "body": ["\\leq"]
+  },
+  "neq": {
+    "prefix": "=/",
+    "body": ["\\neq"]
+  },
+  "infty": {
+    "prefix": ";oo",
+    "body": ["\\infty"]
+  },
+  "nabla": {
+    "prefix": ";n",
+    "body": ["\\nabla"]
+  },
+  "cdot": {
+    "prefix": ";.",
+    "body": ["\\cdot"]
+  },
+  "sqrt": {
+    "prefix": ";f",
+    "body": ["\\frac{$1}{$2}"]
+  },
+  "sum": {
+    "prefix": ";s",
+    "body": ["\\sum_{$1}^{$2}{$3}"]
+  },
+  "int": {
+    "prefix": ";i",
+    "body": ["\\int_{$1}^{$2}{$3}"]
+  },
+  "prod": {
+    "prefix": ";p",
+    "body": ["\\prod_{$1}^{$2}"]
+  },
+  "lim": {
+    "prefix": ";l",
+    "body": ["\\lim_{$1}{$2}"]
+  },
+  "pmatrix": {
+    "prefix": "pmat",
+    "body": [
+      "\\begin{pmatrix}",
+      "\t{$1} & {$2} \\\\\\",
+      "\t{$3} & {$4}",
+      "\\end{pmatrix}"
+    ]
+  },
+  "pvec": {
+    "prefix": "pvec",
+    "body": ["\\begin{pmatrix}", "\t{$1} \\\\\\", "\t{$2}", "\\end{pmatrix}"]
+  },
+  "eqnarray": {
+    "prefix": "arr",
+    "body": ["\\begin{array}{rl}", "\t${1:H \\psi = E \\psi}", "\\end{array}"]
+  },
+  "bm": {
+    "prefix": "b",
+    "body": ["\\bm{$1}"]
+  },
+  "times": {
+    "prefix": "x",
+    "body": ["\\times"]
+  },
+  "partial": {
+    "prefix": ";6",
+    "body": ["\\partial"]
+  },
+  "log": {
+    "prefix": "log",
+    "body": ["\\log_{$1}{$2}"]
+  },
+  "ln": {
+    "prefix": "ln",
+    "body": ["\\ln{$1}"]
+  }
+}
