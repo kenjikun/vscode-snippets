@@ -234,6 +234,22 @@
     "prefix": ";l",
     "body": ["\\lim_{$1}{$2}"]
   },
+  "parentheses": {
+    "prefix": "(",
+    "body": ["\\left($1\\right)"]
+  },
+  "brackets": {
+    "prefix": "[",
+    "body": ["\\left[$1\\right]"]
+  },
+  "braces": {
+    "prefix": "{",
+    "body": ["\\left\\{$1\\right\\}"]
+  },
+  "angle brackets": {
+    "prefix": ">",
+    "body": ["\\left<$1\\right>"]
+  },
   "pmatrix": {
     "prefix": "pmat",
     "body": [
@@ -259,6 +275,18 @@
     "prefix": "x",
     "body": ["\\times"]
   },
+  "sim": {
+    "prefix": "~",
+    "body": ["\\sim"]
+  },
+  "simeq": {
+    "prefix": "~=",
+    "body": ["\\simeq"]
+  },
+  "approx": {
+    "prefix": "~~",
+    "body": ["\\approx"]
+  },
   "partial": {
     "prefix": ";6",
     "body": ["\\partial"]
@@ -270,5 +298,9 @@
   "ln": {
     "prefix": "ln",
     "body": ["\\ln{$1}"]
+  },
+  "roman": {
+    "prefix": "rm",
+    "body": ["\\mathrm{$1}"]
   }
 }
