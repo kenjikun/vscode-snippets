@@ -299,6 +299,14 @@
     "prefix": "ln",
     "body": ["\\ln{$1}"]
   },
+  "superscript": {
+    "prefix": "^",
+    "body": ["^{$1}"]
+  },
+  "subscript": {
+    "prefix": "_",
+    "body": ["_{$1}"]
+  },
   "roman": {
     "prefix": "rm",
     "body": ["\\mathrm{$1}"]
