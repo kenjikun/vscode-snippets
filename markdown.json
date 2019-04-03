@@ -247,7 +247,7 @@
     "body": ["\\left\\{$1\\right\\}"]
   },
   "angle brackets": {
-    "prefix": ">",
+    "prefix": "<",
     "body": ["\\left<$1\\right>"]
   },
   "pmatrix": {
@@ -290,6 +290,14 @@
   "partial": {
     "prefix": ";6",
     "body": ["\\partial"]
+  },
+  "dagger": {
+    "prefix": ";t",
+    "body": ["\\dagger"]
+  },
+  "dots": {
+    "prefix": "...",
+    "body": ["\\dots"]
   },
   "log": {
     "prefix": "log",
