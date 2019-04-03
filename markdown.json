@@ -291,9 +291,9 @@
     "prefix": ";6",
     "body": ["\\partial"]
   },
-  "dagger": {
+  "dag": {
     "prefix": ";t",
-    "body": ["\\dagger"]
+    "body": ["\\dag"]
   },
   "dots": {
     "prefix": "...",
