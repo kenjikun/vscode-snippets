@@ -247,7 +247,7 @@
     "body": ["\\left\\{$1\\right\\}"]
   },
   "angle brackets": {
-    "prefix": ">",
+    "prefix": "<",
     "body": ["\\left<$1\\right>"]
   },
   "pmatrix": {
@@ -291,6 +291,14 @@
     "prefix": ";6",
     "body": ["\\partial"]
   },
+  "dag": {
+    "prefix": ";t",
+    "body": ["\\dag"]
+  },
+  "dots": {
+    "prefix": "...",
+    "body": ["\\dots"]
+  },
   "log": {
     "prefix": "log",
     "body": ["\\log_{$1}{$2}"]
@@ -299,8 +307,28 @@
     "prefix": "ln",
     "body": ["\\ln{$1}"]
   },
+  "superscript": {
+    "prefix": "^",
+    "body": ["^{$1}"]
+  },
+  "subscript": {
+    "prefix": "_",
+    "body": ["_{$1}"]
+  },
   "roman": {
     "prefix": "rm",
     "body": ["\\mathrm{$1}"]
+  },
+  "hat": {
+    "prefix": "hat",
+    "body": ["\\hat{$1}"]
+  },
+  "bigoplus": {
+    "prefix": "O+",
+    "body": ["\\bigoplus"]
+  },
+  "bigotimes": {
+    "prefix": "Ox",
+    "body": ["\\bigotimes"]
   }
 }
