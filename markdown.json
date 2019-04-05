@@ -318,5 +318,17 @@
   "roman": {
     "prefix": "rm",
     "body": ["\\mathrm{$1}"]
+  },
+  "hat": {
+    "prefix": "hat",
+    "body": ["\\hat{$1}"]
+  },
+  "bigoplus": {
+    "prefix": "O+",
+    "body": ["\\bigoplus"]
+  },
+  "bigotimes": {
+    "prefix": "Ox",
+    "body": ["\\bigotimes"]
   }
 }
