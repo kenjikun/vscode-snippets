@@ -330,5 +330,13 @@
   "bigotimes": {
     "prefix": "Ox",
     "body": ["\\bigotimes"]
+  },
+  "bra": {
+    "prefix": "bra",
+    "body": ["\\left<$1\\right|"]
+  },
+  "ket": {
+    "prefix": "ket",
+    "body": ["\\left|$1\\right>"]
   }
 }
