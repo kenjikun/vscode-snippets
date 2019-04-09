@@ -244,7 +244,7 @@
   },
   "braces": {
     "prefix": "{",
-    "body": ["\\left\\{$1\\right\\}"]
+    "body": ["\\left\\{$1\\right\\\\}"]
   },
   "angle brackets": {
     "prefix": "<",
