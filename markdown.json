@@ -20,7 +20,7 @@
   },
   "mathematical expression": {
     "prefix": "$$",
-    "body": ["$$$1$$"]
+    "body": ["$$", "$1", "$$"]
   },
   // Greeks
   "alpha": {
