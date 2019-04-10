@@ -13,6 +13,15 @@
   // 	"description": "Log output to console"
   // }
 
+  // Shortcut for mathematical expression
+  "inline mathematical expression": {
+    "prefix": "$",
+    "body": ["$$1$"]
+  },
+  "mathematical expression": {
+    "prefix": "$$",
+    "body": ["$$$1$$"]
+  },
   // Greeks
   "alpha": {
     "prefix": ":a",
