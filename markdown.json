@@ -332,6 +332,14 @@
     "prefix": "hat",
     "body": ["\\hat{$1}"]
   },
+  "oplus": {
+    "prefix": "o+",
+    "body": ["\\oplus"]
+  },
+  "otimes": {
+    "prefix": "ox",
+    "body": ["\\otimes"]
+  },
   "bigoplus": {
     "prefix": "O+",
     "body": ["\\bigoplus"]
